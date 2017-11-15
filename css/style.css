@@ -3,7 +3,7 @@ body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 nav ul {list-style: none;}
     
-nav a {text-decoration: none;}
+nav a, aside a, article > a {text-decoration: none;}
 
 @media(max-width: 449px){
 
@@ -49,3 +49,20 @@ article {border: solid 1px lightgrey;}
 footer {margin-top: 1rem;
         padding-left: 1rem;}
 header h1 {padding: .5rem;}
+
+
+#no-underline {text-decoration: none;}
+
+
+#font-color {text-decoration: none;
+            color: black;}
+
+
+#last-link-style {text-decoration: none;
+                    color: black;}
+
+ #last-link-style:hover {background-color: black;
+          color: white;}                  
+
+
+p img {max-width: 100%;}
