@@ -49,7 +49,8 @@ nav ul li a {color: black;}
 article {border: solid 1px lightgrey;}
 
 footer {margin-top: 1rem;
-        padding-left: 1rem;}
+        padding-left: 1rem;
+        text-align: center;}
 header h1 {padding: .5rem;}
 
 
