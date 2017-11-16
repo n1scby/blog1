@@ -33,7 +33,8 @@ nav a, aside a, article > a {text-decoration: none;}
     article{flex: 1;
             padding: 1rem;}
     header{margin-bottom: 1rem;}
-    aside img{padding: 1rem;}
+    aside {padding: 1rem;}
+    
     .article-class{width: 80%;
                     margin: auto;}
 
@@ -56,14 +57,34 @@ header h1 {padding: .5rem;}
 
 
 #font-color {text-decoration: none;
-            color: black;}
+            color: green;}
 
 
 #last-link-style {text-decoration: none;
-                    color: black;}
+                  color: green;}
 
- #last-link-style:hover {background-color: black;
-          color: white;}                  
+#last-link-style:hover {background-color: black;
+                         color: white;}                  
+
+#verylast-link-style {text-decoration: none;
+                        color: green;
+                        padding: .5rem;}
+
+#verylast-link-style:hover {background-color: black;                        
+                            border-radius: 3rem;
+                            color: white;}                  
 
 
-p img {max-width: 100%;}
+
+
+
+
+p img {max-width: 100%;
+      margin-top: .5rem;}
+
+article button{padding: .5rem 1rem;
+               background-color: rgb(118, 142, 192);}
+
+
+
+           
