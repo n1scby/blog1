@@ -3,7 +3,8 @@ body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 nav ul {list-style: none;}
     
-nav a, aside a, article > a {text-decoration: none;}
+nav a, aside a, article > a {text-decoration: none;
+                             color: rgb(75, 91, 113);}
 
 @media(max-width: 449px){
 
@@ -83,8 +84,10 @@ header h1 {padding: .5rem;}
 p img {max-width: 100%;
       margin-top: .5rem;}
 
-article button{padding: .5rem 1rem;
+#bark-bark    {padding: .5rem 1rem;
                background-color: rgb(118, 142, 192);}
+
+#bark-bark:hover{cursor: pointer;}
 
 
 
